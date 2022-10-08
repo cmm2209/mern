@@ -102,7 +102,26 @@
   text-decoration: none;
 }
 
-/* column layout */
+/* Table formatting */
+.Rtable {
+  display: table;
+  width: 90%;
+  table-layout: fixed;
+  border-radius: 0.25rem;
+  margin-top: 20;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-indent: initial;
+  border-color: grey;
+}
+
+.two-col {
+  width: 300px;
+  vertical-align: top;
+}
+
+/* Column layout */
 @media (min-width: 550px) {
   .filterNresults {
     display: grid;

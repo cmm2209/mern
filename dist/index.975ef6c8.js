@@ -30572,6 +30572,7 @@ var _filtercolJsDefault = parcelHelpers.interopDefault(_filtercolJs);
 var _browseStyleCss = require("../css/browse-style.css");
 var _s = $RefreshSig$();
 const Title = (props)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+        className: "one-col",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
             className: "has-hover-card",
             children: [
@@ -30801,54 +30802,42 @@ function TitleList() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "results",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                id: "result"
-                            }, void 0, false, {
-                                fileName: "src/components/titleList.js",
-                                lineNumber: 114,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                                className: "table table-striped",
-                                style: {
-                                    marginTop: 20
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                children: "Treatises"
-                                            }, void 0, false, {
-                                                fileName: "src/components/titleList.js",
-                                                lineNumber: 118,
-                                                columnNumber: 17
-                                            }, this)
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                            className: "Rtable",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Treatises"
                                         }, void 0, false, {
                                             fileName: "src/components/titleList.js",
                                             lineNumber: 117,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/titleList.js",
                                         lineNumber: 116,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                                        children: titleList()
-                                    }, void 0, false, {
-                                        fileName: "src/components/titleList.js",
-                                        lineNumber: 121,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/titleList.js",
-                                lineNumber: 115,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/components/titleList.js",
+                                    lineNumber: 115,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                    children: titleList()
+                                }, void 0, false, {
+                                    fileName: "src/components/titleList.js",
+                                    lineNumber: 120,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/titleList.js",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "src/components/titleList.js",
                         lineNumber: 113,
                         columnNumber: 9
@@ -31368,6 +31357,7 @@ const Title = (props)=>{
         columnNumber: 7
     }, undefined));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+        className: "one-col",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
             children: incArr
         }, void 0, false, {
@@ -31485,54 +31475,42 @@ function IncipitList() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "results",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                id: "result"
-                            }, void 0, false, {
-                                fileName: "src/components/incList.js",
-                                lineNumber: 141,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                                className: "table table-striped",
-                                style: {
-                                    marginTop: 20
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                children: "Incipits"
-                                            }, void 0, false, {
-                                                fileName: "src/components/incList.js",
-                                                lineNumber: 145,
-                                                columnNumber: 17
-                                            }, this)
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                            className: "Rtable",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Incipits"
                                         }, void 0, false, {
                                             fileName: "src/components/incList.js",
                                             lineNumber: 144,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/incList.js",
                                         lineNumber: 143,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                                        children: titleList()
-                                    }, void 0, false, {
-                                        fileName: "src/components/incList.js",
-                                        lineNumber: 148,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/incList.js",
-                                lineNumber: 142,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/components/incList.js",
+                                    lineNumber: 142,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                    children: titleList()
+                                }, void 0, false, {
+                                    fileName: "src/components/incList.js",
+                                    lineNumber: 147,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/incList.js",
+                            lineNumber: 141,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "src/components/incList.js",
                         lineNumber: 140,
                         columnNumber: 9
@@ -31754,6 +31732,7 @@ const Title = (props)=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                className: "two-col",
                 children: props.title._id
             }, void 0, false, {
                 fileName: "src/components/contributorList.js",
@@ -31878,63 +31857,54 @@ function ContributorList() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "results",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                id: "result"
-                            }, void 0, false, {
-                                fileName: "src/components/contributorList.js",
-                                lineNumber: 160,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                                className: "table table-striped",
-                                style: {
-                                    marginTop: 20
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                    children: "Contributors"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/contributorList.js",
-                                                    lineNumber: 164,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                    children: "Treatises"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/contributorList.js",
-                                                    lineNumber: 165,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/contributorList.js",
-                                            lineNumber: 163,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                            className: "Rtable",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                style: {
+                                                    width: 300
+                                                },
+                                                children: "Contributors"
+                                            }, void 0, false, {
+                                                fileName: "src/components/contributorList.js",
+                                                lineNumber: 163,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                children: "Treatises"
+                                            }, void 0, false, {
+                                                fileName: "src/components/contributorList.js",
+                                                lineNumber: 164,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/contributorList.js",
                                         lineNumber: 162,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                                        children: titleList()
-                                    }, void 0, false, {
-                                        fileName: "src/components/contributorList.js",
-                                        lineNumber: 168,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/contributorList.js",
-                                lineNumber: 161,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/components/contributorList.js",
+                                    lineNumber: 161,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                    children: titleList()
+                                }, void 0, false, {
+                                    fileName: "src/components/contributorList.js",
+                                    lineNumber: 167,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/contributorList.js",
+                            lineNumber: 160,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "src/components/contributorList.js",
                         lineNumber: 159,
                         columnNumber: 9
@@ -32101,6 +32071,7 @@ const Title = (props)=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                className: "two-col",
                 children: props.title._id
             }, void 0, false, {
                 fileName: "src/components/authorList.js",
@@ -32163,7 +32134,7 @@ function AuthorList() {
                 title: title
             }, title._id, false, {
                 fileName: "src/components/authorList.js",
-                lineNumber: 123,
+                lineNumber: 115,
                 columnNumber: 14
             }, this);
         });
@@ -32173,12 +32144,12 @@ function AuthorList() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarJsDefault.default), {}, void 0, false, {
                 fileName: "src/components/authorList.js",
-                lineNumber: 130,
+                lineNumber: 122,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _browsebarJsDefault.default), {}, void 0, false, {
                 fileName: "src/components/authorList.js",
-                lineNumber: 131,
+                lineNumber: 123,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32191,7 +32162,7 @@ function AuthorList() {
                                 children: "Filter by:"
                             }, void 0, false, {
                                 fileName: "src/components/authorList.js",
-                                lineNumber: 134,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -32199,12 +32170,12 @@ function AuthorList() {
                                 onChange: submission,
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _filtercolJsDefault.default), {}, void 0, false, {
                                     fileName: "src/components/authorList.js",
-                                    lineNumber: 136,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/authorList.js",
-                                lineNumber: 135,
+                                lineNumber: 127,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -32214,88 +32185,79 @@ function AuthorList() {
                                 children: "Reset"
                             }, void 0, false, {
                                 fileName: "src/components/authorList.js",
-                                lineNumber: 138,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/authorList.js",
-                        lineNumber: 133,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "results",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                id: "result"
-                            }, void 0, false, {
-                                fileName: "src/components/authorList.js",
-                                lineNumber: 143,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                                className: "table table-striped",
-                                style: {
-                                    marginTop: 20
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                    children: "Authors"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/authorList.js",
-                                                    lineNumber: 147,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                                    children: "Treatises"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/authorList.js",
-                                                    lineNumber: 148,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/authorList.js",
-                                            lineNumber: 146,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                            className: "Rtable",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                style: {
+                                                    width: 300
+                                                },
+                                                children: "Authors"
+                                            }, void 0, false, {
+                                                fileName: "src/components/authorList.js",
+                                                lineNumber: 138,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                children: "Treatises"
+                                            }, void 0, false, {
+                                                fileName: "src/components/authorList.js",
+                                                lineNumber: 139,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/authorList.js",
-                                        lineNumber: 145,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                                        children: titleList()
-                                    }, void 0, false, {
-                                        fileName: "src/components/authorList.js",
-                                        lineNumber: 151,
-                                        columnNumber: 13
+                                        lineNumber: 137,
+                                        columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/authorList.js",
-                                lineNumber: 144,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/components/authorList.js",
+                                    lineNumber: 136,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                    children: titleList()
+                                }, void 0, false, {
+                                    fileName: "src/components/authorList.js",
+                                    lineNumber: 142,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/authorList.js",
+                            lineNumber: 135,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "src/components/authorList.js",
-                        lineNumber: 142,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/authorList.js",
-                lineNumber: 132,
+                lineNumber: 124,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/authorList.js",
-        lineNumber: 129,
+        lineNumber: 121,
         columnNumber: 5
     }, this);
 }

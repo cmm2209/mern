@@ -10256,6 +10256,24 @@ body > table.gssb_c {
   text-decoration: none;
 }
 
+.Rtable {
+  width: 90%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-indent: initial;
+  border-color: gray;
+  border-radius: .25rem;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  display: table;
+}
+
+.two-col {
+  width: 300px;
+  vertical-align: top;
+}
+
 @media (min-width: 550px) {
   .filterNresults {
     grid-template-columns: 180px auto;

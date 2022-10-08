@@ -62,19 +62,11 @@ const Title = (props) => {
 
   return (
     <tr>
-      <td>{props.title._id}</td>
+      <td className="two-col">{props.title._id}</td>
       <td>{titlesArr}</td>
     </tr>
   );
 };
-
-/**
-  {props.title.treatises[i].version1 !== undefined && (
-              <span key={props.title.treatises[i].title}>
-                {props.title.treatises[i].title}
-              </span>
-            )}
- */
 
 export default function AuthorList() {
   const [titles, setTitles] = useState([]);
@@ -140,11 +132,10 @@ export default function AuthorList() {
           </button>
         </div>
         <div className="results">
-          <h3 id="result"></h3>
-          <table className="table table-striped" style={{ marginTop: 20 }}>
+          <table className="Rtable">
             <thead>
               <tr>
-                <th>Authors</th>
+                <th style={{ width: 300 }}>Authors</th>
                 <th>Treatises</th>
               </tr>
             </thead>

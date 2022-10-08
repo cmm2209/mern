@@ -5,7 +5,7 @@ import FilterCol from "./filtercol.js";
 import "../css/browse-style.css";
 
 const Title = (props) => (
-  <tr>
+  <tr className="one-col">
     <td className="has-hover-card">
       <span key={props.title._id}>{props.title.title}</span>
       <span className="hover-card">
@@ -111,8 +111,7 @@ export default function TitleList() {
           </button>
         </div>
         <div className="results">
-          <h3 id="result"></h3>
-          <table className="table table-striped" style={{ marginTop: 20 }}>
+          <table className="Rtable">
             <thead>
               <tr>
                 <th>Treatises</th>

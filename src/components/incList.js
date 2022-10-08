@@ -24,7 +24,7 @@ const Title = (props) => {
   }
 
   return (
-    <tr>
+    <tr className="one-col">
       <td>{incArr}</td>
     </tr>
   );
@@ -138,8 +138,7 @@ export default function IncipitList() {
           </button>
         </div>
         <div className="results">
-          <h3 id="result"></h3>
-          <table className="table table-striped" style={{ marginTop: 20 }}>
+          <table className="Rtable">
             <thead>
               <tr>
                 <th>Incipits</th>

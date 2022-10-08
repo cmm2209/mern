@@ -87,7 +87,7 @@ const Title = (props) => {
   }
   return (
     <tr>
-      <td>{props.title._id}</td>
+      <td className="two-col">{props.title._id}</td>
       <td>{titlesArr}</td>
     </tr>
   );
@@ -157,11 +157,10 @@ export default function ContributorList() {
           </button>
         </div>
         <div className="results">
-          <h3 id="result"></h3>
-          <table className="table table-striped" style={{ marginTop: 20 }}>
+          <table className="Rtable">
             <thead>
               <tr>
-                <th>Contributors</th>
+                <th style={{ width: 300 }}>Contributors</th>
                 <th>Treatises</th>
               </tr>
             </thead>
